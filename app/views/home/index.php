@@ -7,12 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h3><?php echo $data['title']; ?></h3>
-    <p>Mijn id is: <?=$data['id']; ?></p>
-    <p>Mijn naam is: <?=$data['name']; ?></p>
-    <p>Mijn haarkleur is: <?=$data['haircolor']; ?></p>
+    <h3><?= $data['title']; ?></h3>
 
-    <h3><a href="mvc-2209a.org/country/getCountries">Link naar country</a></h3>
-
+    <p>Mijn id is: <?= $data['id']; ?></p>
+    <p>Mijn naam is: <?= $data['name']; ?></p>
+    <p>Mijn haarkleur is: <?= $data['haircolor']; ?></p>
+    <a href='http://mvc-2209c.org/country/getcountries'>Landen van de wereld</a>
 </body>
 </html>
+
+

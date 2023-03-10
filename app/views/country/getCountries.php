@@ -7,18 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    <h3><?php echo $data['title']; ?></h3>
-    <a href='http://mvc-2209c.org/home/index'>Terug naar Home</a>
+    <h3><?= $data['title']; ?></h3>
 
     <table border="1">
         <thead>
-        <th>Id</th>
-        <th>Naam</th>
-    </thead>
-
-    <tbody>
-        <?= $data['rows']; ?>
-    </tbody>
+            <th>Id</th>
+            <th>Naam</th>
+        </thead>
+        <tbody>
+            <?= $data['rows']; ?>
+        </tbody>
     </table>
+
+
+
+    <a href='http://mvc-2209c.org/home/index'>Terug naar Home</a>
+
 </body>
 </html>
+

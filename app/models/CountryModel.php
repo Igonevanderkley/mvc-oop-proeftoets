@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 class CountryModel
 {
@@ -12,11 +12,11 @@ class CountryModel
     public function getCountries()
     {
         $sql = 'SELECT  Id
-                        ,Name
-                FROM Country;';
+                       ,Name
+                FROM   Country;';
 
         $this->db->query($sql);
 
-        return $this->db->resultSet();
+        return $this->db->resultSet();        
     }
 }
